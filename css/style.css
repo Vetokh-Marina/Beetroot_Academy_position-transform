@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000000;   
+}
+html,
+body {
+    min-height: 100vh;
+    max-width: 1440px;
+}
+.taitle__1{
+   display: none;
+}
+.item__link{
+    text-decoration: none;
+    display: block;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 0.8px;
+    letter-spacing: 0.04em;
+}
+.nav__link{
+    text-decoration: none;
+    display: block;
+}
+.nav__list{
+    gap: 10px;
+}
+.header{
+    padding: 13px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 120px;
+}
+.main{
+    padding-top: 70px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    list-style: none;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.side-bar{
+    max-width: 385px;
+    position: sticky;
+    top: 0;
+}
+.side-bar__list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 10px;
+    gap: 70px;
+    font-size: 36px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.side-bar__item{
+    border-bottom:1px solid #BDBDBD;
+    padding: 0px 0px 10px;
+}
+.content__title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.main .flex{
+    gap: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.content__title{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.3px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.content__sup-title{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+}
+.text__chapter4{
+    margin-bottom: 90px;
+}
+.bg-pictute{
+    position: absolute;
+    top: 150px;
+    left: 812px;
+    z-index: -1;
+}
+.content__chapter::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100px;
+        height: 8px;
+        background-color: #000;
+}
+.content__chapter{
+    position: relative;
+    
+}
